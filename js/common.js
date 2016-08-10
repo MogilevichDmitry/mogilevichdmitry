@@ -2,7 +2,7 @@ $( document ).ready(function() {
     /* scroll onclick */
     $(function () {
         $('.arrow-down').on('click', function (e) {
-            $('html,body').stop().animate({scrollTop: $('#portfolio').offset().top}, 650, 'swing');
+            $('html,body').stop().animate({scrollTop: $('#about-me').offset().top}, 500, 'swing');
             e.preventDefault();
         });
 
@@ -41,7 +41,7 @@ $( document ).ready(function() {
             isAnimating  = true;
             $('html, body').animate({
                 scrollTop: parseInt( anchors[currentAnchor] )
-            }, 650, 'swing', function() {
+            }, 500, 'swing', function() {
                 isAnimating  = false;
             });
         });
