@@ -89,6 +89,12 @@ html, body {
     color: #666;
     font-size: 17px;
 }
+.information__title{
+    display: inline-block;
+    margin-top: 10px;
+    color: #0645ad;
+    font-weight: 500;
+}
 .blank-ico {
     display: inline-block;
     width: 15px;
