@@ -137,7 +137,12 @@ html, body {
     margin-right: 0;
 }
 .contact__icon {
+    width: 40px;
+    height: 40px;
     margin: auto 15px auto 0;
+}
+.contact__icon:hover {
+    opacity: 0.75;
 }
 .contact__description {
     margin: auto 0;
@@ -151,20 +156,14 @@ html, body {
     letter-spacing: 1px;
 }
 .call-ico {
-    width: 40px;
-    height: 40px;
     background: url('./images/layout/call-ico.svg');
     background-size: cover;
 }
 .facebook-ico {
-    width: 40px;
-    height: 40px;
     background: url('./images/layout/facebook-ico.svg');
     background-size: cover;
 }
 .email-ico {
-    width: 40px;
-    height: 40px;
     background: url('./images/layout/email-icon.svg');
     background-size: cover;
 }
