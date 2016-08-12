@@ -17,7 +17,7 @@ html, body {
 .home {
     position: relative;
     height: 100%;
-    background: url('./images/layout/water-768745_1920.jpg') no-repeat 50% 45%;
+    background: url('./images/layout/water-bg.jpg') no-repeat 50% 45%;
     background-size: cover;
     color: white;
 }
