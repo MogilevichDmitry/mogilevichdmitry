@@ -107,6 +107,9 @@ html, body {
     background-size: cover;
     margin: 0 0 -1px 4px;
 }
+b{
+    font-weight: 500;
+}
 
 .work-list {
     list-style-type: none;
