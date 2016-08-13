@@ -92,12 +92,13 @@ html, body {
     font-family: Raleway, "Times New Roman", Times, sans-serif;
     color: #666;
     font-size: 17px;
+    line-height:1.4;
 }
 .information__title{
     display: inline-block;
-    margin-top: 10px;
-    color: #0645ad;
+    margin: 10px 3px 0 0;
     font-weight: 500;
+    font-size: 18px;
 }
 .blank-ico {
     display: inline-block;
@@ -109,6 +110,7 @@ html, body {
 }
 b{
     font-weight: 500;
+    font-size: 18px;
 }
 
 .work-list {
