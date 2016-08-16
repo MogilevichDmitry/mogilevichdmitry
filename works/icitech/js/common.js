@@ -4,7 +4,6 @@ $( document ).ready(function() {
             strings: [
                 "Imagine. Create. Improve",
                 "Нужен сайт? Мы сделаем",
-                "Почему мы?",
                 "Уникальный дизайн",
                 "Грамотный код",
                 "Поддержка и гарантия",
@@ -14,6 +13,7 @@ $( document ).ready(function() {
                 "Творчески подходим к заданию",
                 "С пользой для бизнеса",
                 "И не боимся сложных задач!",
+                "Наш подход к делу:"
             ],
             typeSpeed: 35,
             backDelay: 500,
@@ -21,10 +21,12 @@ $( document ).ready(function() {
         });
     });
     $(window).bind('scroll', function () {
-        if ($(window).scrollTop() > 450) {
-            $('.home__feedback-btn').addClass('home__feedback-btn_fixed').fadeIn(200);
-        } else {
-            $('.home__feedback-btn').removeClass('home__feedback-btn_fixed').fadeOut(150);
+        if ($(window).width() > 1040) {
+            if ($(window).scrollTop() > 450) {
+                $('.home__feedback-btn').fadeIn(200);
+            } else {
+                $('.home__feedback-btn').fadeOut(200);
+            }
         }
     });
 });
