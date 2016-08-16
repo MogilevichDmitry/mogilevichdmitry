@@ -23,9 +23,9 @@ $( document ).ready(function() {
     $(window).bind('scroll', function () {
         if ($(window).width() > 1040) {
             if ($(window).scrollTop() > 450) {
-                $('.home__feedback-btn').fadeIn(200);
+                $('.common__feedback-btn').fadeIn(200);
             } else {
-                $('.home__feedback-btn').fadeOut(200);
+                $('.common__feedback-btn').fadeOut(200);
             }
         }
     });
