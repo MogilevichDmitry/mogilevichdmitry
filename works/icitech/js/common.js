@@ -21,10 +21,10 @@ $( document ).ready(function() {
         });
     });
     $(window).bind('scroll', function () {
-        if ($(window).scrollTop() > 500) {
+        if ($(window).scrollTop() > 450) {
             $('.home__feedback-btn').addClass('home__feedback-btn_fixed').fadeIn(200);
         } else {
-            $('.home__feedback-btn').removeClass('home__feedback-btn_fixed').hide();
+            $('.home__feedback-btn').removeClass('home__feedback-btn_fixed').fadeOut(150);
         }
     });
 });
