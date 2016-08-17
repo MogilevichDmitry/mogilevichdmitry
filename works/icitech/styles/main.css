@@ -3,31 +3,36 @@
   padding: 0;
   box-sizing: border-box;
 }
-html, body {
-  height: 100%;
+body {
   font-family: 'Roboto', sans-serif;
 }
 .wrapper {
-  min-height: 100%;
   border: 10px solid #212121;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.page__wrapper {
+  padding: 10px;
 }
 .feedback-btn {
   font-weight: 500;
-  padding: 15px 28px;
+  font-size: 14px;
+  padding: 10px 20px;
   background: #1ea1e0;
   color: white;
   text-decoration: none;
   border-radius: 3px;
 }
 .common__feedback-btn {
-  display: none;
   position: fixed;
   right: 40px;
-  top: 50%;
+  bottom: 40px;
 }
 .portfolio__feedback-btn {
-  position: absolute;
+  position: fixed;
   right: 40px;
   bottom: 40px;
 }
@@ -37,14 +42,14 @@ html, body {
 }
 .home__header {
   max-width: 260px;
-  margin: 8px auto 0;
+  margin: 20px auto 0;
   text-align: center;
 }
 .common__header {
   margin: 20px auto 0;
   display: flex;
   align-items: center;
-  max-width: 59.4%;
+  max-width: 60.653%;
   justify-content: space-between;
   padding-left: 15px;
 }
@@ -126,7 +131,7 @@ html, body {
 }
 
 .portfolio__works {
-  max-width: 59.4%;
+  max-width: 60.653%;
   font-size: 0;
   margin: 120px auto 0;
   padding-bottom: 35px;
@@ -166,6 +171,9 @@ html, body {
   .wrapper {
     border: 15px solid #212121;
   }
+  .page__wrapper {
+    padding: 15px;
+  }
   .home__header {
     max-width: 800px;
   }
@@ -195,6 +203,9 @@ html, body {
 @media (min-width: 1600px) {
   .wrapper {
     border: 20px solid #212121;
+  }
+  .page__wrapper {
+    padding: 20px;
   }
   .home__header {
     max-width: 960px;
