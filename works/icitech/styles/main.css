@@ -8,14 +8,16 @@ body {
 }
 .wrapper {
   border: 10px solid #212121;
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  position: fixed;
 }
 .page__wrapper {
   padding: 10px;
+  z-index:1;
+  position: relative;
 }
 .feedback-btn {
   font-weight: 500;
